@@ -4,19 +4,7 @@
     --secondary-color: #1abc9c;
 }
 /* DEBUG */
-.debug .row .col-2{
-    background-color: red;
-    min-height: 2.1875rem;
-}
 
-.debug .ms-portfolio .col-2,.col-1 {
-    background-color: red;
-    min-height: 2.1875rem;
-}
-.debug .ms-portfolio .col-12,.col-sm-6,.col-lg-4{
-    background-color: red;
-    min-height: 22.5rem;
-}
 .debug .ms-img-card{
     background-color: yellow;
     height: 100%;
@@ -55,7 +43,7 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
-/* setion portfolio */
+/* section portfolio */
 .ms-img-card img{
     height: 330px;
     width: 410px;
@@ -74,4 +62,49 @@ header{
     color: white;
     border: 1px solid white;
     margin-bottom: 20px;
+}
+/*section contact */
+.ms-contact{
+    background-color: #ffffff;
+}
+.ms-text-area.form-control{
+    min-height: 12.5rem;
+}
+.form-control{
+    border:none;
+    border-bottom: 2px solid #cccccc;
+    border-radius: 0;
+    min-height: 3.75rem;
+}
+.form-floating label{
+    font-size: 1.25rem;
+}
+.ms-tertiary-btn{
+    margin-right: auto;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: .4375rem;
+    
+}
+/* FOOTER */
+footer{
+    color: white;
+    background-color: #3a546d;
+}
+.ms-footer-top a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.ms-social{
+    font-size: 1.5625rem;
+    min-height: 3.75rem;
+    line-height: 3.75rem;
+    width: 3.75rem;
+    border-radius: 50%;
+    border: .125rem solid white;
+    
+}
+.ms-footerbottom{
+    background-color: var(--primary-color);
 }
